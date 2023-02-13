@@ -1,0 +1,223 @@
+section .cart{
+    position: relative;
+    border: 1px solid #ccc;
+}
+.amount span{
+    color:green;
+    padding: 0 20px;
+}
+.amount .count{
+    width: 40px;
+    height: 30px;
+    border: 1px solid #555;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+.delete{
+    position: absolute;
+    top:0;
+    right: 5px;
+    color: crimson;
+    cursor: pointer;
+    font-weight: 900;
+}
+.total{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: green;
+}
+.total a{
+    text-decoration: none;
+    background:green;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 25px;
+}
+.total h3{
+    margin-right: 50px;
+    color: green;
+}
+@media (max-width: 650px){
+    .sec2{
+        overflow: scroll;
+    }
+    .sec23 .nm{
+        display: none;
+        
+    }
+    .mmm{
+        width: 450px;
+    }
+    .footer{
+      display: block;
+    }
+}
+.eee{
+    display: flex;
+    justify-content: space-between;
+  
+    margin-top: 50px;
+}
+.eee h4{
+  color: green;
+  margin-top: 10px;
+}
+
+.eee h5{
+    margin-top: 10px;
+}
+
+.secc{
+    text-align: center;
+    margin-top: 30px;
+    background-color: darkgreen ;
+    color: white;
+    width: 100vh;
+    padding: 10px 0;
+}
+.sec23{
+    display: flex;
+    margin-top: 50px;
+}
+.sec222{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: darkgreen;
+    color: white;
+    padding: 30px;
+}
+
+.sec2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.dd button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: rgb(0, 151, 0);
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    top: 50px;
+    right: 120px;
+}
+.sec2223 h6{
+  position: relative;
+  left: 50px;
+}
+  .footer {
+    background-color:darkgreen;
+    padding: 100px 20px;
+    display: flex;
+    margin-top: 50px;
+    width: 1200px;
+  }
+  
+  .footer h3 {
+    font-size: 30px;
+    font-weight: 1000;
+    margin-bottom: 30px;
+    color:white;
+
+  }
+  .sec2223{
+    display: flex;
+    justify-content: space-between;
+   margin-top: 50px;
+  }
+  .sec2223 h6{
+    font-size: 20px;
+    position: relative;
+    right: 50px;
+  }
+  .footer p {
+    margin-top: 20px;
+    color: white;
+  }
+  
+  .divicons {
+   display: block;
+    width: 70%;
+    margin-top: 30px;
+    position: relative;
+    left: 50px;
+  
+  }
+  .divcon{
+    display: flex;
+    position: relative;
+    top: 50px;
+  }
+  .divcon div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #a1a1a1;
+    color:white;
+   
+  }
+  
+  .divicons div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #a1a1a1;
+    color: #a1a1a1;
+  
+  }
+  
+  .divicons div svg {
+    font-size: 25px;
+  }
+  
+  .divicons div:hover {
+    border: 1px solid #2c2c2c;
+  
+    color: #2c2c2c;
+  }
+  
+  .footer input[type="email"] {
+    margin-top: 20px;
+    width: 70%;
+    height: 50px;
+    outline: none;
+    border: none;
+    text-indent: 10px;
+    font-size: 20px;
+  }
+  
+  .footer input[type="submit"] {
+    margin-top: 20px;
+  
+    width: 30%;
+    height: 50px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    transition: all 1s ease-in-out;
+  }
+  
+  .footer input[type="submit"]:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+  }
+  
